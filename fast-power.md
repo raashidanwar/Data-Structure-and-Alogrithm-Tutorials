@@ -1,4 +1,4 @@
-## Fast power $a^b \%  M$
+## Fast power $a^b\\%M$
 If we use Brute force we can simply multiply ($a * a * \.\.\.* a$) $b$ times and while multiplying take the modulo with $M$ everytime, The time complexity of this approach is $O(b)$.
 
 Question is can we optimize it further ?Yes we can.
