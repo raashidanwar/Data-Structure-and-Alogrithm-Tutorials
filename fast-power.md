@@ -3,7 +3,7 @@ If we use Brute force we can simply multiply ($a * a * \.\.\.* a$) $b$ times and
 
 Question is can we optimize it further ?Yes we can.
 
-Before we start remember this basic property $a^{x+y}=a^x*a^y$ right?
+Before we start remember this basic property $a^{x+y}=a^x*a^y$.
 ### Algorithm
 let's first take the value of $b$ is $13$, the binary representation of $13$ is $1101$.
 #### let's simplify $a^b$
