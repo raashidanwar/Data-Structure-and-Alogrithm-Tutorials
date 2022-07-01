@@ -21,10 +21,10 @@ Now let's iterate over the binary of $b(13)$ and calculate the $result$
  $result = result * x \\% M$ [after this operation the value of $result$ will become $a\\%M$]<br />
  $x=x*x\%M$ [after this operation the value of $x$ will become $a^2\\%M$]
  
- 2. check the $1th$ bit of $b(13)=11|0|1$ is it set or not? no it's not.<br /> then we don't need to multiply anything to result.<br />
+ 2. check the $1st$ bit of $b(13)=11|0|1$ is it set or not? no it's not.<br /> then we don't need to multiply anything to result.<br />
  $x=x*x\\%M$ [after this operation the value of $x$ will become $a^4\\%M$]
 
- 3. check the $2th$ bit of $b(13)=1|1|01$ is it set or not? yes it's set.<br /> so we need to multiply $a^{2^2}=a^4$ (the value of $x$ is
+ 3. check the $2nd$ bit of $b(13)=1|1|01$ is it set or not? yes it's set.<br /> so we need to multiply $a^{2^2}=a^4$ (the value of $x$ is
     $a^4\\%M$).<br />
     $result = result * x \\% M$ [after this operation the value of $result$ will become $a * a^4\\%M$]<br />
     $x=x*x\\%M$ [after this operation the value of $x$ will become $a^8\\%M$]
