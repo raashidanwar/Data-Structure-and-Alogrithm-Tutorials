@@ -7,7 +7,7 @@ First we need to include the library in our programe file and we can do that eit
 
 stack <**data_type**> (**data_type** can be any valid data type like `int`, `float` etc... or any custome made data type also).
 
-**Note*** unlike `vector` or `array` we cannot access elements in the stack apart from it's top element.
+**Note*** unlike `vector` or `array` we cannot access elements in the stack except the top element.
 
 ### supported methods
 #### push
