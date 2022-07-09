@@ -18,6 +18,7 @@ s.push(2);
 s.push(3);
 s.push(10);
 ```
+**Note*** `emplace is an alternative of push (example s.emplace(element);)`
 
 
 
@@ -34,13 +35,19 @@ s.pop();
 https://user-images.githubusercontent.com/35250507/177525018-dec38290-18b9-4310-9f51-0a5acacfedd5.mp4
 
 #### top
-Top method returns the top element in the stack or throw error is stack is empty.
+Top method returns the top element of the stack or throw error is stack is empty.
 ```
 s.top();
 ```
 
+#### size
+Size method returns size of the stack.
+```
+s.size();
+```
+
 #### empty
-Empty method returns boolean (**true** if is stack is empty otherwise **false**).
+Empty method returns boolean (**true** if stack is empty otherwise **false**).
 ```
 s.empty();
 ```
