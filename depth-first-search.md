@@ -1,5 +1,5 @@
 ## DFS
-A depth first search algorithm is a search majorly used in graph and trees, we can start seraching from any node (say it root node) and go deep down along the path, backtrack if not found and the seraching continues until we found the that node.
+A depth first search algorithm is a search algorithm majorly used in graph and trees, we can start seraching from any node (say it root node) and go deep down along the path, backtrack if not found and the seraching continues until we found the that node.
 
 In dfs we select one child and traverse the complete child tree before moving to next child of the node.<br />
 **Note**** Traversing only non visited node (if current node is already been visited then move to next node since we must had done dfs on that node so no need to traverse again). 
