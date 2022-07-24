@@ -27,7 +27,7 @@ https://user-images.githubusercontent.com/35250507/180635263-f90e9a75-0f2b-4501-
 void dfs(int current_node, int parent) {
   for (int child : node[current_node]) {
     if (child == parent) {
-      return ;
+      continue ;
     }
     dfs(child, current_node);
   }
