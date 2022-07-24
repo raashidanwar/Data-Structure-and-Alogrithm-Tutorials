@@ -21,7 +21,7 @@ Now we want to search a node with a value as 8 using dfs (depth first search), s
 https://user-images.githubusercontent.com/35250507/180635263-f90e9a75-0f2b-4501-b31b-7c50d83ce713.mp4
 
 ### sudo code
-- I always use `vector <vector <int>> node(N)` for nodes, node[i] stores the list of children nodes of for ith node, you are free to use anything 🙂.
+- I always use `vector <vector <int>> node(N)` for nodes, node[i] stores the list of nodes connected with the edge with ith node, you are free to use anything 🙂.
 
 ```
 void dfs(int current_node, int parrent) {
