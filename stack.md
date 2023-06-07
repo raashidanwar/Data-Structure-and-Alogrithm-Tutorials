@@ -12,13 +12,13 @@ stack <**data_type**> (**data_type** can be any valid data type like `int`, `flo
 ### supported methods
 #### push
 Push method inserts the element at the top of the stack.
+```cpp
+stack <int> st;
+st.push(2);
+st.push(3);
+st.push(10);
 ```
-stack <int> s;
-s.push(2);
-s.push(3);
-s.push(10);
-```
-**Note*** `emplace is an alternative of push (example s.emplace(element);)`
+**Note*** `emplace is an alternative of push (example st.emplace(element);)`
 
 
 
@@ -27,8 +27,8 @@ https://user-images.githubusercontent.com/35250507/177518425-5bc0306f-1171-4dde-
 
 #### pop
 Pop method removes the top element or throw error is stack is empty.
-```
-s.pop();
+```cpp
+st.pop();
 ```
 
 
@@ -36,18 +36,18 @@ https://user-images.githubusercontent.com/35250507/177525018-dec38290-18b9-4310-
 
 #### top
 Top method returns the top element of the stack or throw error is stack is empty.
-```
-s.top();
+```cpp
+st.top();
 ```
 
 #### size
 Size method returns size of the stack.
-```
-s.size();
+```cpp
+st.size();
 ```
 
 #### empty
 Empty method returns boolean (**true** if stack is empty otherwise **false**).
 ```
-s.empty();
+st.empty();
 ```
