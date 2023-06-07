@@ -23,7 +23,7 @@ https://user-images.githubusercontent.com/35250507/180635263-f90e9a75-0f2b-4501-
 ### sudo code
 - I always use `vector <vector <int>> node(N)` for nodes, node[i] stores the list of nodes connected with the edge with ith node, you are free to use anything 🙂.
 
-```
+```cpp
 void dfs(int current_node, int parent) {
   for (int child : node[current_node]) {
     if (child == parent) {
