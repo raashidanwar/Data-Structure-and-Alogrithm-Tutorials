@@ -43,17 +43,19 @@ If you see a problem where $b >= 10^7$ , using brute force will surely give you 
 
 ### Code
 
-    const int M = 1000000007;
-    
-    int mpow(int a, int b) {
-      int r = 1;
-      while (b) {
-        if (b & 1) {
-	        r = (r * a) % M;
-        }
-        a = (a * a) % M;
-        b >>= 1;
-      }
-      return r;
+```cpp
+const int M = 1000000007;
+
+int mpow(int a, int b) {
+  int r = 1;
+  while (b) {
+    if (b & 1) {
+      r = (r * a) % M;
     }
+    a = (a * a) % M;
+    b >>= 1;
+  }
+  return r;
+}
+```
 
